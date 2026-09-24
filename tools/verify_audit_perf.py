@@ -11,8 +11,8 @@ quality_scan() 结果比对：重复组、疑似同义、可能矛盾三项必�
 零第三方依赖：python tools/verify_audit_perf.py
 """
 import sys, time
-sys.path.insert(0, r"D:/Hippocampus")
-import hippocampus as hippo
+sys.path.insert(0, r"D:/Loci")
+import loci as hippo
 
 
 def reference_scan(project=None, dup_th=0.66, contain_th=0.82, conflict_lo=0.28,

@@ -1,6 +1,6 @@
 import time, sys
-sys.path.insert(0, r"D:/Hippocampus")
-import hippocampus as hippo
+sys.path.insert(0, r"D:/Loci")
+import loci as hippo
 
 for name, fn in [("quality_scan", hippo.quality_scan), ("health_score", hippo.health_score),
                  ("audit_report", hippo.audit_report)]:
